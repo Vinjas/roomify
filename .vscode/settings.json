@@ -1,0 +1,42 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.minimap.maxColumn": 60,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.autofetch": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0.6,
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.format.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.debug": true
+}
