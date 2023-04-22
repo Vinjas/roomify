@@ -1,24 +1,27 @@
-import { Nunito } from "next/font/google";
-
-import "./globals.css";
+import './globals.css';
+import { Nunito } from 'next/font/google';
+import Navbar from './components/navbar/Navbar';
 
 export const metadata = {
-  title: "Roomify",
-  description: "Roomify app",
+  title: 'Roomify',
+  description: 'Roomify app'
 };
 
 const font = Nunito({
-  subsets: ["latin"],
+  subsets: [ 'latin' ]
 });
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className={font.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
